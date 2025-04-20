@@ -6,7 +6,7 @@
 //
 
 ///
-public enum JSONLiteral: ProperValueType,
+public enum JSONLiteral: ValueType,
                          CustomStringConvertible {
     
     ///

@@ -20,7 +20,7 @@ let package = Package(
         ///
         .package(
             url: "https://github.com/jeremyabannister/FoundationToolkit",
-            "0.7.8" ..< "0.8.0"
+            .upToNextMinor(from: "0.8.5")
         ),
     ],
     targets: [
